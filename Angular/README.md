@@ -1,13 +1,33 @@
-# From HTML, JQuery, Bootstrap to Angular 9, TypeScript, Ngx-Bootstrap, Json
-Migration from one block HTML code to Angular 9 components retrieving data from json.
+# From HTML, JQuery, Bootstrap to Angular, TypeScript, Ngx-Bootstrap, Json
 
-Example of migration of an existing HTML page to Angular app. The HTML project is already existing here: https://github.com/skepee/book-your-holidays-2. It's a simple HTML page with CSS, Jquery and Boostrap. This is a demo how it works:
 
-[Book Your Holidays demo](https://dribbble.com/shots/5043578-Book-your-holidays-with-parallax)
+## Description 
+This is an example of migration from one block single HTML page to Angular components. Data are supposed to be retrieved from json. Part of the migration is also to design the structure of json.
 
-Our exercise is to migrate this simple page in an Angular 9 App.
+What we want to do is showed in this image:
+![Objective](https://github.com/skepee/BYH-Angular/blob/master/description/Slide3.PNG)
 
-Let's start!
+
+
+## HTML page
+Let us consider a simple HTML page to book holidays. An example of how it works can be found here:
+
+[Dribbble](https://dribbble.com/shots/5043578-Book-your-holidays-with-parallax)
+
+[Pinterest](https://www.pinterest.co.uk/pin/800655639979829791/)
+
+Basically it is a simple page with three different destinations for holidays.
+Moreover, show/hide panels are used to choose three different type of breakfast (one on them) and up to three different type of sightseeing.
+
+Technically is formed by  a single html page and an external CSS file. That's it.
+
+
+## Angular process migration
+
+Let's start to migrate the booking holidays page in an Angular app.
+
+# Migration process
+The migration can be summarized in the following steps:
 
 ## 1. Component design
 The migration starts from a design of the new page. Let's identify which are our potential components of our angular app.
