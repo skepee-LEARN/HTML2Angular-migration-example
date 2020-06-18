@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css"; 
+
+body {
+    padding-bottom: 20px;
+  }
+  
+  .textbar {
+    text-align: left;
+    margin-left: 5px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .card {
+    width: 350px;
+  }
+  
+  .cardimg {
+      height:600px;
+  }
+  
+  .cardDetail {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border-width: 0px;
+      border-style: solid;
+      width:auto;
+  }
+  
+  
+  .optSelected, .rdSelected {
+      color: forestgreen;
+      background-color: transparent;
+      font-size:1.2em;
+      margin-left:5px;
+  }
+  
+  
+  .cardBreakfast, .cardSightseeing {
+      height: 420px;
+  }
+  
+  
+  .infobooking {
+      border-radius: 10px;
+      height: 40px;
+      padding-top: 5px;
+      margin-bottom: 15px;
+  }
+  
+  

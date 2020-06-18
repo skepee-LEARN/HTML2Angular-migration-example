@@ -1,0 +1,11 @@
+<div class="card cardSightseeing">
+    <img class="cardimg card-img-top img-fluid"  [src]="logo" alt="Sightseeing">
+    <div class="card-body">
+        <h5 class="card-title">Visiting</h5>
+        <div class="form-check" *ngFor='let place of visiting.items'>
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox">{{place}}
+            </label>
+        </div>
+    </div>
+</div>

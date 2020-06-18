@@ -1,0 +1,8 @@
+<div *ngIf='!services.length'>
+    No services available
+</div>
+<ul class="list-group list-group-flush" *ngFor='let service of services'>
+    <li class="list-group-item">
+        <fa-icon [icon]="['fas', 'utensils']"></fa-icon>&nbsp;{{service}}</li>
+</ul>
+

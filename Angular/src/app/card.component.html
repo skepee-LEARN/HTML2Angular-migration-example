@@ -1,0 +1,16 @@
+<img class="cardimg card-img-top img-fluid rounded" src="{{imageUrl}}" alt="{{title}}">
+<div class="card-body">
+  <h5 class="card-title">{{title}}</h5>
+  <p class="card-text">{{description}}</p>
+  <button type="button" class="btn btn-primary" (click)="isCollapsedBook = !isCollapsedBook"
+    [attr.aria-expanded]="!isCollapsedBook" [attr.aria-controls]="'collapseBook'+title">Book</button>
+  &nbsp;
+  <button type="button" class="btn btn-warning" (click)="isCollapsedInfo = !isCollapsedInfo"
+    [attr.aria-expanded]="!isCollapsedInfo" [attr.aria-controls]="'collapseInfo'+title">Info</button>
+</div>
+<div [id]="'isCollapsedBook'+title" [collapse]="isCollapsedBook" [isAnimated]="true">
+  <app-card-booking [card]='card'></app-card-booking>
+</div>
+<div [id]="'collapseInfo'+title" [collapse]="isCollapsedInfo" [isAnimated]="true">
+  <app-card-detail [card]='card'></app-card-detail>
+</div>

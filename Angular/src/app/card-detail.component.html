@@ -1,0 +1,14 @@
+<div [id]="'collapseInfo'+title" [collapse]="isCollapsedInfo" [isAnimated]="true">
+    <div class="row">
+        <div class="col-md-4">
+            <app-card-statistics [statistics]='card.statistics' [destinationName]='title'></app-card-statistics>
+        </div>
+        <div class="col-md-4">
+            <app-card-info [info]='card.info' [destinationName]='title'></app-card-info>
+        </div>
+        <div class="col-md-4">
+            <app-card-services [services]='card.services' [destinationName]='title'></app-card-services>
+        </div>
+    </div>    
+</div>
+  

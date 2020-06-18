@@ -1,0 +1,77 @@
+[
+  {
+    "destination":{
+      "cardId": 1,
+      "title": "London",
+      "description": "Find things to do in London, attractions, sightseeing, events, theatre, restaurants and hotels. Plan your trip to London with useful information.",
+      "imageUrl": "https://c1.staticflickr.com/9/8459/29491986160_a23a5ccfac_h.jpg"
+    },
+    "statistics":[ "March 100% bookings","April 100% bookings","May only 100 bookings remaining"],
+    "info":["Destination: London","Available slots (up to now!): 100","Bookings in May: 900"],
+    "services":["Sightseeing","Bed & Breakfast","London Visiting"],
+    "booking":
+    {
+      "roundTripImage":"http://c1.staticflickr.com/6/5463/7005160722_3528bd5147_b.jpg",
+      "breakFast":
+      {
+        "items":["English Breakfast","Milk and Espresso Coffee","Yogurt and Muesli"],
+        "imageUrl":"http://c1.staticflickr.com/9/8112/8536993173_bc00a77d98_n.jpg"
+      },     
+      "placesToVisit":
+      {
+        "items":["Tower of London","River Thames Cruise","London Eye"],
+        "imageUrl":"http://c1.staticflickr.com/1/521/18558124519_7857df4b0a_b.jpg"
+      }
+    }
+  },
+  {
+    "destination":{
+      "cardId": 2,
+      "title": "Edinburgh",
+      "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "imageUrl": "https://c1.staticflickr.com/5/4177/34168855061_09d57ce644_k.jpg"
+      },
+    "statistics":[],
+    "info":["Destination: Edinburgh","Available slots (up to now!): 10","Total bookings: 2000"],
+    "services":[],
+    "booking":
+    {
+      "roundTripImage":"http://c1.staticflickr.com/6/5463/7005160722_3528bd5147_b.jpg",
+      "breakFast":
+      {
+        "items":["English Breakfast","Milk and Espresso Coffee","Yogurt and Muesli"],
+        "imageUrl":"http://c1.staticflickr.com/9/8112/8536993173_bc00a77d98_n.jpg"
+      },     
+      "placesToVisit":
+      {
+        "items":["Tower of London","River Thames Cruise","London Eye"],
+        "imageUrl":"http://c1.staticflickr.com/1/521/18558124519_7857df4b0a_b.jpg"
+      }
+    }
+  },
+  {
+    "destination":{
+      "cardId": 3,
+      "title": "Dublin",
+      "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "imageUrl": "https://c1.staticflickr.com/5/4758/26148462238_45c522786e_h.jpg"
+        },
+    "statistics":[ "March 100% bookings","April 100% bookings","May only 100 bookings remaining"],
+    "info":["Destination: Dublin","Available slots (up to now!): 100","Bookings up to now: 900"],
+    "services":["Sightseeing","Bed & Breakfast","Dublin Visiting"],
+    "booking":
+    {
+      "roundTripImage":"http://c1.staticflickr.com/6/5463/7005160722_3528bd5147_b.jpg",
+      "breakFast":
+      {
+        "items":["English Breakfast","Milk and Espresso Coffee","Yogurt and Muesli"],
+        "imageUrl":"http://c1.staticflickr.com/9/8112/8536993173_bc00a77d98_n.jpg"
+      },     
+      "placesToVisit":
+      {
+        "items":["Tower of London","River Thames Cruise","London Eye"],
+        "imageUrl":"http://c1.staticflickr.com/1/521/18558124519_7857df4b0a_b.jpg"
+      }
+    }
+   }
+  ]

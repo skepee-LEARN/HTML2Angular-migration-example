@@ -1,0 +1,9 @@
+<div *ngIf='!info.length'>
+    No info available
+</div>
+<ul class="list-group list-group-flush" *ngFor='let infoitem of info'>
+    <li class="list-group-item">
+        <fa-icon [icon]="['fas', 'plane']"></fa-icon>
+        {{infoitem}}</li>
+</ul>
+

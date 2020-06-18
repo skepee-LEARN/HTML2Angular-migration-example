@@ -1,0 +1,15 @@
+
+<div [id]="'collapseBook'+title" [collapse]="isCollapsedBook" [isAnimated]="true">
+    <div class="row">
+        <div class="col-md-4">
+            <app-card-roundtrip  [imageRoudtrip] ="card.booking.roundTripImage" ></app-card-roundtrip>
+        </div>
+        <div class="col-md-4">
+            <app-card-breaksfast [breakfast] ="card.booking.breakFast"></app-card-breaksfast>
+        </div>
+        <div class="col-md-4">
+            <app-card-visiting [visiting] ="card.booking.placesToVisit"></app-card-visiting>          
+        </div>
+    </div>    
+</div>
+  

@@ -1,0 +1,20 @@
+[
+  {
+    "cardId": 1,
+    "title": "London",
+    "description": "Find things to do in London, attractions, sightseeing, events, theatre, restaurants and hotels. Plan your trip to London with useful information.",
+    "imageUrl": "assets/images/leaf_rake.png"
+  },
+  {
+    "cardId": 2,
+    "title": "Edinburgh",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "imageUrl": "assets/images/leaf_rake.png"
+  },
+  {
+    "cardId": 3,
+    "title": "Dublin",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "imageUrl": "assets/images/leaf_rake.png"
+  }
+]
